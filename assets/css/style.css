@@ -1,0 +1,62 @@
+:root {
+  --color: rgb(5, 5, 5);
+  --color2: rgb(162, 184, 164);
+  --color3: rgb(15, 233, 26);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color);
+  color: #000;
+  font-family: Georgia, "Times New Roman", Times, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.container {
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 35px;
+}
+.container,
+h1 {
+  text-align: center;
+}
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+form input {
+  font-size: 20px;
+  height: 30px;
+  padding: 0 5px;
+}
+form label {
+  text-align: left;
+  font-size: 29px;
+}
+
+form input:focus {
+  outline: 1px solid var(--color);
+}
+form button {
+  border: none;
+  background: var(--color);
+  color: #fff;
+  font-size: 29px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+form button:hover {
+  background: var(--color3);
+}
